@@ -22,7 +22,7 @@ const MessageForm = () => {
 
     try {
       const res = await axios.post(
-        "https://mediserve-final-project.onrender.com/api/v1/message/send",
+        "http://localhost:4000/api/v1/message/send",
         messageData,
         {
           withCredentials: true,
